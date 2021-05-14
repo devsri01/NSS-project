@@ -1,0 +1,154 @@
+body {background-image:url(northern-lights-1933319.jpg); background-size: 1400px 1400px;}
+
+
+.navbar ul li{color:black;
+	display:inline;
+	padding-right: 12px;
+	list-style: none;
+	text-align: top-right;
+	}
+
+.navbar ul{text-align: right;}
+
+a {text-decoration: none;color:black;text-align: top-right;}
+
+.header .navbar{display: inline;}
+
+.link:hover { color:yellow;}
+
+.link:visited , .link:active {color:red;}
+.submenu{margin-top: 150px;}
+.secondsubmenu{margin-top:25px;}
+
+.discover{background-color:#f4c430;border-radius: 12px;padding: 14px 40px; opacity: 0.6;}
+.discover:hover {opacity: 1;}
+
+.link {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover{
+  display: block;
+}
+
+.dropup{margin-top: 160px; margin-right: 20px;border-radius: 12px;padding: 14px 40px;
+		color: yellow;}
+header{
+  position: sticky;
+  top: 0;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+  color: black;
+  padding: 6px 5px;
+  text-decoration: none;
+  display: inline;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #ddd}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+
+.dropup .dropbtn {display: inherit;}
+
+.dropbtn{margin-top: 5px;margin-right: 5px; padding:  15px 60px;}
+.dropup-content{background-color: black; }
+.dropup-content a {background-color: lightgreen; padding-bottom: 2px;}
+
+.dropbtn{padding-top: 5px;}
+.dropup-content p { margin-left: 10px;}
+
+.submenu2{color:white;padding-top: 70px;}
+.submenu3a ,.submenu3b ,.submenu3c{color:orange;padding-top: 50px}
+
+.submenu2 .submenu3a{display:inline;}
+
+	.imgDes {
+  margin-left: 180px;
+  overflow: hidden;
+  text-align: center;color:white;
+}
+.imgDes p {
+  text-align: center;
+}
+.side-content{float:right;}
+.text{
+	padding-top: 30px;
+	padding-bottom:60px; 
+}
+
+#txt1{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+#demo{
+	background-color: orange;
+	margin-left: 100px;
+	margin-right: 100px;
+	color: white;
+	font-size: 50px;
+
+}
+
+#txt2{
+	color: #000000;
+	font-size: 20px;
+}
+
+.form1{
+	border: 2px solid black;
+	background-color: rgba(163,214,246,0.5);
+	padding: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.text2{padding-top: 45px;}
+.submenu4{padding-top: 60px;color: white;}
+
+.message{padding-left: 0px}
